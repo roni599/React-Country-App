@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.countris{
+    background-color: rgb(45,63,85);
+    width: 31%;
+    padding: 12px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 22px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    transition: all 0.3s;
+}
+.countris:hover{
+    transform: scale(1.1);
+}
+.countris img{
+    width: 130px;
+    height: 100px;
+    border-radius: 5px;
+}
+.btn{
+    padding: 5px 20px;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid orange;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
